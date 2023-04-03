@@ -2,6 +2,7 @@
 This is a an demo application to call yammer/viva apis. 
 
 ## install and configure
+```bash
 brew install pyenv
 pyenv install 3.11
 echo 'export PATH="$(pyenv root)/bin:$PATH"' >> ~/.zshrc
@@ -20,7 +21,7 @@ pip install gql
  
 ## run application
 get a token from graph
-
+````
 ```bash
 python main.py
 ```
